@@ -1,0 +1,39 @@
+
+@charset "ISO-8859-1";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.errorMsgs {
+	font-size: 14px;
+	color: red;
+}
+
+header {
+	display: flex;
+	width: 100%;
+}
+
+header>nav {
+	display: flex;
+	width: 100%;
+	padding: 2%;
+}
+
+header>nav>a {
+	flex: 1;
+}
+
+header>nav>ul {
+	flex: 3;
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+}
+
+header>nav>ul>li {
+	flex-basis: 10%;
+}
